@@ -12,7 +12,7 @@ const page = () => {
     <div className='max-container'>
       <div className='mt-12'>
         <h1 className='text-2xl md:text-4xl lg:text-6xl font-semibold'>My <span className='bg_gradient_r'>Projects</span></h1>
-        <p className='mt-5'>I've embarked on numerous projects throughout the years,
+        <p className='mt-5'>I have embarked on numerous projects throughout the years,
           but these are the ones I hold closest to my heart.
           Many of them are open-source,so if you come across
           something that piques your intrest, feel free to
