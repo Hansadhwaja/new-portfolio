@@ -6,18 +6,6 @@ import Link from 'next/link';
 const ContactUsPreview = () => {
     const words = [
         {
-            text: "Having",
-        },
-        {
-            text: "something",
-        },
-        {
-            text: "in",
-        },
-        {
-            text: "mind.",
-        },
-        {
             text: "Let's",
         },
         {
@@ -33,6 +21,7 @@ const ContactUsPreview = () => {
     ];
     return (
         <div className='bg-slate-900 p-4 rounded-lg mt-10'>
+            <h1 className='text-sm font-semibold'>Having Something in mind.</h1>
             <TypewriterEffectSmooth words={words} />
             <Link href={'/contact'}>
                 <Button
