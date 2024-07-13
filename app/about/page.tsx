@@ -8,12 +8,12 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='flex flex-col max-container'>
+    <div  className='w-full rounded-md flex-center flex-col max-container relative overflow-hidden mx-auto py-10 md:py-0'>
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="blue"
       />
-      <div className='mt-40'>
+      <div className='mt-32'>
      
         <h1 className='lg:text-6xl md:text-4xl text-2xl'>Hello, I am  <span className='bg-clip-text text-transparent bg-gradient-to-r font-bold from-cyan-500 to-blue-500'>Hansadhwaja</span></h1>
         <p className='mt-5'>4th year,Computer Engineering persuing B.Tech from IIIT,Bhubaneshwar.</p>

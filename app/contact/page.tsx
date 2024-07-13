@@ -4,13 +4,13 @@ import React from 'react'
 const page = () => {
 
   return (
-    <div className='relative flex justify-center flex-col max-container h-[100vh]'>
+    <div className='relative flex-center flex-col min-h-screen overflow-hidden bg-black'>
       <Meteors number={20} />
-      <div className='mt-12'>
+      <div className='mt-32'>
         <h1 className='text-2xl md:text-4xl lg:text-6xl font-semibold'>Get In <span className='bg_gradient_r'>Touch</span></h1>
       </div>
-      <section className=''>
-        <div className='flex-1 min-w-[50%] flex flex-col'>
+      <section className='w-full px-4 md:px-16 lg:w-1/2'>
+        <div className='flex-1 flex flex-col'>
           <form
             className='w-full flex flex-col gap-4 mt-10'>
             <label className='text-black-500 font-semibold'>Name</label>

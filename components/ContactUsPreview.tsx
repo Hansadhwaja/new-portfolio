@@ -20,7 +20,7 @@ const ContactUsPreview = () => {
         }
     ];
     return (
-        <div className='bg-slate-900 p-4 rounded-lg mt-10'>
+        <div className='bg-slate-900 p-4 rounded-lg mt-10 w-full'>
             <h1 className='text-sm font-semibold'>Having Something in mind.</h1>
             <TypewriterEffectSmooth words={words} />
             <Link href={'/contact'}>
