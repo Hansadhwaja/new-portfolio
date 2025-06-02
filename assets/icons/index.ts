@@ -32,6 +32,8 @@ import nike from './nike.svg'
 import gofood from './gofood.svg'
 import tindog from './tindog.svg'
 import keeper from './keeper.svg'
+import rails from './rails.svg'
+import shadcn from './shadcn.svg'
 
 export {
     css,
@@ -67,5 +69,7 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    rails,
+    shadcn,
 }

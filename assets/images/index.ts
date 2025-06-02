@@ -8,8 +8,14 @@ import nike from './nike.png'
 import promtopia from './promtopia.png'
 import threads from './Threads.png'
 import summiz from './summiz.png'
+import mms from './mms.png'
+import zentry from './zentry.png'
+import nullclass from './NullClass.png'
+import pixelcompute from './pixelcompute.jpeg'
+import travel from './Travel.png'
+import yoom from './Yoom.png'
 
-export{
+export {
     animevault,
     carhub,
     gofood,
@@ -19,5 +25,11 @@ export{
     nike,
     promtopia,
     threads,
-    summiz
+    summiz,
+    mms,
+    zentry,
+    nullclass,
+    pixelcompute,
+    travel,
+    yoom
 }
