@@ -1,245 +1,319 @@
 import {
-    css,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    mongodb,
-    mui,
-    nextjs,
-    nodejs,
-    react,
-    tailwindcss,
-    typescript,
-    rails,
-    shadcn,
+  css,
+  express,
+  git,
+  github,
+  html,
+  javascript,
+  mongodb,
+  nextjs,
+  nodejs,
+  react,
+  tailwindcss,
+  typescript,
+  shadcn,
 } from "../assets/icons";
 
 import {
-    animevault,
-    carhub,
-    gofood,
-    movieland,
-    nike,
-    promtopia,
-    threads,
-    summiz,
-     mms,
-    zentry,
-    nullclass,
-    pixelcompute,
-    travel,
-    yoom
-
-} from '../assets/images'
+  animevault,
+  carhub,
+  gofood,
+  movieland,
+  nike,
+  promtopia,
+  threads,
+  summiz,
+  mms,
+  zentry,
+  nullclass,
+  pixelcompute,
+  travel,
+  yoom,
+  rhf,
+  zod,
+  qit,
+  storepilot,
+  paintpro,
+} from "../assets/images";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    },
-     {
-        imageUrl: rails,
-        name: "Ruby On Rails",
-        type: "Backend",
-    },
-     {
-        imageUrl: shadcn,
-        name: "Shadcn/ui",
-        type: "Frontend",
-    },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: shadcn,
+    name: "Shadcn/ui",
+    type: "Frontend",
+  },
+  {
+    imageUrl: rhf,
+    name: "React Hook Form",
+    type: "Frontend",
+  },
+  {
+    imageUrl: zod,
+    name: "Zod",
+    type: "Validation",
+  },
 ];
 
-export const projects = [
+export const featuredProjects = [
   {
-    imgUrl: zentry,
-    theme: "btn-back-red",
-    name: "Zentry",
+    imgUrl: paintpro,
+    theme: "btn-back-orange",
+    name: "Paint Pro",
     description:
-      "A frontend replica of the official Zentry Gaming website featuring smooth, modern animations powered by GSAP for a dynamic user experience.",
-    link: "https://zentry-umber-sigma.vercel.app",
+      "A professional paint estimation and calculation tool designed to help homeowners, contractors, and painters estimate paint requirements, project costs, wall area coverage, and material quantities with accuracy.",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "React Hook Form",
+      "Zod",
+    ],
+    github: "https://github.com/Hansadhwaja/paintpro",
+    link: "https://paintpros.vercel.app",
   },
+  {
+    imgUrl: storepilot,
+    theme: "btn-back-green",
+    name: "StorePilot",
+    description:
+      "A full-stack paint store management system built for a real business. Features inventory management, sales tracking, purchase records, dealer management, cash flow monitoring, and business analytics.",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "React Hook Form",
+      "Zod",
+    ],
+  },
+
   {
     imgUrl: mms,
     theme: "btn-back-yellow",
     name: "Mess Management System",
     description:
-      "A comprehensive solution for managing hostel mess operations, including meal scheduling, user roles, and billing automation.",
+      "A QR-based hostel mess management platform with role-based access control, attendance tracking, meal management, and administrative dashboards.",
+    techStack: ["Next.js", "MongoDB", "Tailwind CSS", "Clerk", "QR Code"],
+    github: "https://github.com/Hansadhwaja/mess-management-system",
     link: "https://mess-management-system-umber.vercel.app",
   },
+
+  // {
+  //   imgUrl: threads,
+  //   theme: "btn-back-green",
+  //   name: "Full Stack Threads Clone",
+  //   description:
+  //     "A social media platform inspired by Threads with authentication, threaded discussions, user profiles, and community interactions.",
+  //   techStack: ["Next.js", "MongoDB", "Tailwind CSS", "Clerk"],
+  //   github: "https://github.com/Hansadhwaja/threads-clone",
+  //   link: "https://threads-one-sooty.vercel.app",
+  // },
+
+  {
+    imgUrl: gofood,
+    theme: "btn-back-yellow",
+    name: "Go Food",
+    description:
+      "A full-stack food ordering application featuring authentication, menu browsing, cart management, and order placement.",
+    techStack: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
+    github: "https://github.com/Hansadhwaja/go-food-new",
+    link: "https://go-food-new-two.vercel.app",
+  },
+
+  {
+    imgUrl: zentry,
+    theme: "btn-back-red",
+    name: "Zentry",
+    description:
+      "A pixel-perfect recreation of the Zentry website focused on advanced GSAP animations and immersive frontend interactions.",
+    techStack: ["React", "GSAP", "Tailwind CSS", "Vite"],
+    github: "https://github.com/Hansadhwaja/zentry",
+    link: "https://zentry-umber-sigma.vercel.app",
+  },
+];
+
+export const otherProjects = [
   {
     imgUrl: yoom,
     theme: "btn-back-blue",
     name: "Yoom",
     description:
-      "A video conferencing app with support for real-time audio/video calls, chat, and screen sharing, inspired by platforms like Zoom.",
+      "A real-time video conferencing application with screen sharing, chat, and meeting management.",
+    techStack: ["Next.js", "TypeScript", "Stream"],
+    github: "",
     link: "https://yoom-wheat-three.vercel.app",
   },
+
   {
     imgUrl: promtopia,
     theme: "btn-back-red",
     name: "Promptopia",
     description:
-      "A community-driven platform for discovering, creating, and sharing AI-generated prompts for tools like ChatGPT.",
+      "A platform for discovering, creating, and sharing AI prompts.",
+    techStack: ["Next.js", "MongoDB", "NextAuth"],
+    github: "",
     link: "https://promptopia-jet-six.vercel.app",
+  },
+
+  {
+    imgUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "AI Summarizer",
+    description:
+      "An AI-powered application that generates concise summaries from lengthy articles.",
+    techStack: ["React", "Redux Toolkit", "Rapid API"],
+    github: "",
+    link: "https://summerizer-ai-two.vercel.app",
   },
   {
     imgUrl: animevault,
     theme: "btn-back-blue",
     name: "Anime Vault",
     description:
-       "A static anime listing website with infinite scroll functionality, dynamically loading 8 new anime titles as the user scrolls down.",
+      "An anime discovery website with infinite scrolling and dynamic content loading.",
+    techStack: ["Next.js", "TypeScript", "Server Actions"],
+    github: "",
     link: "https://anime-vault-three-iota.vercel.app",
   },
-  {
-    imgUrl: gofood,
-    theme: "btn-back-yellow",
-    name: "Go Food",
-    description:
-       "An online food ordering website where users can sign up, log in, browse available food items, and place orders—focused on core ordering functionality without detailed restaurant listings.",
-    link: "https://go-food-new-two.vercel.app",
-  },
-  {
-    imgUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'A full-stack clone of Meta\'s "Threads" platform, enabling users to create accounts, post threads, and interact with discussions in real-time.',
-    link: "https://threads-one-sooty.vercel.app",
-  },
-  {
-    imgUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "An AI-powered tool that extracts key points from lengthy articles and blogs, providing clear and concise summaries instantly.",
-    link: "https://summerizer-ai-two.vercel.app",
-  },
-  {
-    imgUrl: movieland,
-    theme: "btn-back-black",
-    name: "Movie Finding App",
-    description:
-      "A simple movie search app that fetches data from the OMDB API and displays results based on the user's search term.",
-    link: "https://movieland-three.vercel.app",
-  },
+
   {
     imgUrl: nike,
     theme: "btn-back-orange",
     name: "Nike App",
-    description:
-      "A responsive clone of the Nike e-commerce site, showcasing products, featured collections, and a stylish shopping experience.",
+    description: "A responsive e-commerce landing page inspired by Nike.",
+    techStack: ["React", "Tailwind CSS"],
+    github: "",
     link: "https://nike-copy.vercel.app",
   },
+
   {
     imgUrl: travel,
     theme: "btn-back-yellow",
     name: "Travel App",
     description:
-      "A visually appealing static travel website designed to showcase destinations and travel packages with a modern, responsive layout.",
+      "A modern travel landing page showcasing destinations and travel packages.",
+    techStack: ["React", "Tailwind CSS"],
+    github: "",
     link: "https://travel-app-sage-tau.vercel.app",
   },
+
   {
-    imgUrl: carhub,
-    theme: "btn-back-blue",
-    name: "Car hub",
-    description:
-      "A car marketplace web app to search, compare, and discover car listings with dynamic filtering and responsive design.",
-    link: "https://cars-showcase-ebon.vercel.app",
+    imgUrl: movieland,
+    theme: "btn-back-black",
+    name: "Movie Finder",
+    description: "A movie search application powered by the OMDb API.",
+    techStack: ["React", "OMDb API"],
+    github: "",
+    link: "https://movieland-three.vercel.app",
   },
 ];
 
 export const experiences = [
   {
-    title: "Full Stack Developer-Trainee",
-    company_name: "PixelCompute",
-    icon: pixelcompute,
-    iconBg: "#8ad6cc",
-    date: "Jan 2025 - April 2025",
+    title: "Full Stack Developer Intern",
+    company_name: "Quantum IT Innovation",
+    icon: qit,
+    iconBg: "#f5c542",
+    date: "Sep 2025 - Present",
     points: [
-      "Gained hands-on experience in full stack web development using HTML, CSS, JavaScript, React, Ruby, SQL, and Ruby on Rails.",
-      "Successfully completed multiple assignments and mini-projects covering both frontend and backend technologies.",
-      "Built and styled responsive user interfaces using React and Tailwind CSS.",
-      "Developed backend APIs and database interactions using Ruby on Rails and SQL",
-      "Applied version control best practices using Git for managing code across assignments and projects",
-      "Demonstrated consistent performance by completing all assigned tasks and projects on time.",
+      "Working on full-stack web applications using modern JavaScript technologies and industry-standard development practices.",
+      "Participating in daily standups, sprint planning, code reviews, and client meetings as part of an agile development team.",
+      "Developing and maintaining frontend features with React and backend functionality through REST APIs.",
+      "Collaborating with team members to implement new features, fix bugs, and improve application performance.",
+      "Using Git and GitHub for version control, code collaboration, and deployment workflows.",
+      "Gaining hands-on experience working on real-world client projects in a professional software development environment.",
     ],
   },
   {
-    title: "Full Stack Developer-Intern",
+    title: "Full Stack Developer Trainee",
+    company_name: "PixelCompute",
+    icon: pixelcompute,
+    iconBg: "#8ad6cc",
+    date: "Jan 2025 - Apr 2025",
+    points: [
+      "Completed intensive training in full-stack web development covering HTML, CSS, JavaScript, React, SQL, Ruby, and Ruby on Rails.",
+      "Built multiple frontend and backend projects to strengthen practical software development skills.",
+      "Developed responsive and user-friendly interfaces using React and modern CSS frameworks.",
+      "Implemented backend functionality, database operations, and RESTful APIs using Ruby on Rails and SQL.",
+      "Used Git and GitHub for version control, collaboration, and project management.",
+      "Delivered assignments and projects within deadlines while following software development best practices.",
+    ],
+  },
+  {
+    title: "Full Stack Developer Intern",
     company_name: "NullClass",
     icon: nullclass,
     iconBg: "#accbe1",
-    date: "May 2024 - June 2024",
+    date: "May 2024 - Jun 2024",
     points: [
-      "Developed a fully functional Internshala clone as a full-stack web application using React, Node.js, Express.js, MongoDB, and Redux Toolkit.",
-      "Implemented Google Login for seamless and secure user authentication.",
-      "Integrated OTP-based email verification using Nodemailer to enhance account security and prevent unauthorized access.",
-      "Enabled multi-language support (English, Hindi, Chinese, Portuguese, Spanish, French) to broaden global reach and improve accessibility.",
-      "Followed best practices in RESTful API design, state management, and responsive UI development.",
-      "Gained hands-on experience working in a collaborative, remote environment simulating real-world development workflows",
+      "Built a full-stack Internshala clone using React, Node.js, Express.js, MongoDB, and Redux Toolkit.",
+      "Implemented Google Authentication to provide a secure and seamless login experience.",
+      "Integrated OTP-based email verification using Nodemailer to improve account security.",
+      "Added multilingual support across six languages to enhance accessibility for a wider audience.",
+      "Designed and consumed RESTful APIs while managing application state with Redux Toolkit.",
+      "Worked in a remote team environment, following industry-standard development workflows and version control practices.",
     ],
   },
 ];
